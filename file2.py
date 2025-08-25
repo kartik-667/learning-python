@@ -2,8 +2,11 @@ from file1 import func1, binary_search, graph_main
 import os
 import sys
 
-graph_main()
+# graph_main()
 
+
+str1="kartik verma"
+print(str1[:6:-2])
 
 # print(sys.platform)
 # tmp=os.getcwd()

@@ -1,7 +1,10 @@
 
-
 import math
 import random
+
+import sys
+
+print("the ref count is",sys.getrefcount("kartik"))
 
 randval=random.random() * 10
 randval=math.floor(randval)
